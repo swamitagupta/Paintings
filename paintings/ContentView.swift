@@ -8,14 +8,45 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let paintings = Painting.all()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(self.paintings, id: \.name) {
+                painting in
+                NavigationLink(
+                    destination: Text("Hello"))
+                {
+                    PaintingCell(painting: painting)
+                }
+            }
+            .navigationBarTitle("Paintings")
+        }
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 11")
+    }
+}
+
+struct PaintingCell: View {
+    let painting: Painting
+    
+    var body: some View {
+        HStack {
+            /*Image(painting.imageURL)
+                .resizable()
+                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                .cornerRadius(16)*/
+            VStack (alignment: .leading){
+                Text(painting.name)
+                Text(painting.painter)
+                    .foregroundColor(.gray)
+            }
+        }
     }
 }

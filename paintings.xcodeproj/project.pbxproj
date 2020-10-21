@@ -15,6 +15,7 @@
 		70AD3F9C2540020E003482D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AD3F9A2540020E003482D1 /* LaunchScreen.storyboard */; };
 		70AD3FA72540020F003482D1 /* paintingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3FA62540020F003482D1 /* paintingsTests.swift */; };
 		70AD3FB22540020F003482D1 /* paintingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3FB12540020F003482D1 /* paintingsUITests.swift */; };
+		70AD3FC425400247003482D1 /* painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3FC325400247003482D1 /* painting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		70AD3FAD2540020F003482D1 /* paintingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paintingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AD3FB12540020F003482D1 /* paintingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paintingsUITests.swift; sourceTree = "<group>"; };
 		70AD3FB32540020F003482D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AD3FC325400247003482D1 /* painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = painting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		70AD3F8E25400207003482D1 /* paintings */ = {
 			isa = PBXGroup;
 			children = (
+				70AD3FC22540022B003482D1 /* Models */,
 				70AD3F8F25400207003482D1 /* AppDelegate.swift */,
 				70AD3F9125400207003482D1 /* SceneDelegate.swift */,
 				70AD3F9325400207003482D1 /* ContentView.swift */,
@@ -134,6 +137,14 @@
 				70AD3FB32540020F003482D1 /* Info.plist */,
 			);
 			path = paintingsUITests;
+			sourceTree = "<group>";
+		};
+		70AD3FC22540022B003482D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70AD3FC325400247003482D1 /* painting.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 				70AD3F9025400207003482D1 /* AppDelegate.swift in Sources */,
 				70AD3F9225400207003482D1 /* SceneDelegate.swift in Sources */,
 				70AD3F9425400207003482D1 /* ContentView.swift in Sources */,
+				70AD3FC425400247003482D1 /* painting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
