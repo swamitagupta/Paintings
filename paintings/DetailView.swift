@@ -23,7 +23,8 @@ struct DetailView: View {
                     }
                 }
             Text(painting.name)
-            Text(painting.painter)
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            Text("by \(painting.painter)")
         } .navigationBarTitle(Text(painting.name), displayMode: .inline)
     }
 }
