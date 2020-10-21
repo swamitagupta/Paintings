@@ -15,7 +15,7 @@ struct ContentView: View {
             List(self.paintings, id: \.name) {
                 painting in
                 NavigationLink(
-                    destination: Text("Hello"))
+                    destination: DetailView(painting: painting))
                 {
                     PaintingCell(painting: painting)
                 }
@@ -38,10 +38,10 @@ struct PaintingCell: View {
     
     var body: some View {
         HStack {
-            /*Image(painting.imageURL)
+            Image(painting.imageURL)
                 .resizable()
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-                .cornerRadius(16)*/
+                .cornerRadius(16)
             VStack (alignment: .leading){
                 Text(painting.name)
                 Text(painting.painter)

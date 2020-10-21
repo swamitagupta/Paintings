@@ -16,6 +16,7 @@
 		70AD3FA72540020F003482D1 /* paintingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3FA62540020F003482D1 /* paintingsTests.swift */; };
 		70AD3FB22540020F003482D1 /* paintingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3FB12540020F003482D1 /* paintingsUITests.swift */; };
 		70AD3FC425400247003482D1 /* painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3FC325400247003482D1 /* painting.swift */; };
+		70AD3FCC25400CAC003482D1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3FCB25400CAC003482D1 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		70AD3FB12540020F003482D1 /* paintingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paintingsUITests.swift; sourceTree = "<group>"; };
 		70AD3FB32540020F003482D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70AD3FC325400247003482D1 /* painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = painting.swift; sourceTree = "<group>"; };
+		70AD3FCB25400CAC003482D1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				70AD3F8F25400207003482D1 /* AppDelegate.swift */,
 				70AD3F9125400207003482D1 /* SceneDelegate.swift */,
 				70AD3F9325400207003482D1 /* ContentView.swift */,
+				70AD3FCB25400CAC003482D1 /* DetailView.swift */,
 				70AD3F952540020E003482D1 /* Assets.xcassets */,
 				70AD3F9A2540020E003482D1 /* LaunchScreen.storyboard */,
 				70AD3F9D2540020E003482D1 /* Info.plist */,
@@ -280,6 +283,7 @@
 				70AD3F9025400207003482D1 /* AppDelegate.swift in Sources */,
 				70AD3F9225400207003482D1 /* SceneDelegate.swift in Sources */,
 				70AD3F9425400207003482D1 /* ContentView.swift in Sources */,
+				70AD3FCC25400CAC003482D1 /* DetailView.swift in Sources */,
 				70AD3FC425400247003482D1 /* painting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

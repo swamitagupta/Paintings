@@ -19,7 +19,7 @@ extension Painting {
         Painting(name: "Monalisa", painter: "Leonardo Da Vinci", imageURL: "mona"),
             Painting(name: "The Starry Night", painter: "Vincent Van Gogh", imageURL: "starry"),
             Painting(name: "Guernica", painter: "Pablo Picasso", imageURL: "guernica"),
-            Painting(name: "The Night's Watch", painter: "Rembrandt", imageURL: "night"),
+            Painting(name: "The Night's Watch", painter: "Rembrandt", imageURL: "watch"),
             Painting(name: "The Last supper", painter: "Leonardo Da Vinci", imageURL: "supper")
         ]
     }
